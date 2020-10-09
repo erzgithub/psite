@@ -1,0 +1,96 @@
+#verifycontainer{
+	
+}
+
+#container{
+	background: red;
+}
+
+.vwrapper{
+	width: 50%;
+	margin: 0 auto;
+}
+
+#vform{
+	width: 70%;
+	text-align:center;
+	margin: 0 auto;
+}
+
+#ic{ 
+	width: 39%;
+	margin: 10px auto;
+} 
+ 
+#vform:after, #ic:after{ /*does not affect by floated elements inside*/
+   display: block;  
+   content: " ";
+   height: 0;
+   clear: both;
+}
+
+h1{
+	font: 24px bold tahoma, sans-serif;
+	
+}
+
+.line{
+	display: table;
+	white-space: nowrap;
+}
+
+.line:before,
+.line:after{
+	background: linear-gradient(to bottom, #9FD35F, #4F8C31) no-repeat center / 98% 3px;
+	content: '';
+	display: table-cell;
+	width: 50%;
+}
+
+.forname{
+	font: 25px normal Verdana, sans-serif, Tahoma;
+}
+
+#txtemail, input{
+	padding:9px;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	font: normal 15px/100% Verdana, Tahoma, sans-serif;
+	width: 240px;
+	background: #ffffff;
+}
+
+input:hover, input:focus, #txtemail:hover, #txtemail:focus{
+	border-color: #c9c9c9;
+}
+/**/
+input{
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	float:left;
+}
+
+
+#cbutton{
+	width: 100px;
+	background:red;
+}
+
+#d1{
+	float: left;
+	width: auto; height: 50px;
+	margin-right: 2px;
+}
+
+#d2{
+	float:left;
+	width: 120px; height: 50px;
+	margin-top: 2%;
+}
+
+.verifyer{
+	visibility: hidden;
+}
+
+footer{clear:both; text-align: center;}

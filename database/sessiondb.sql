@@ -1,0 +1,30 @@
+CREATE TABLE IF NOT EXISTS tbl_sessions (
+  `id` CHAR(128) NOT NULL,
+  `set_time` CHAR(10) NOT NULL,
+  `data` text NOT NULL,
+  `session_key` CHAR(128) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE IF NOT EXISTS tbl_images(
+	ID INT AUTO_INCREMENT,
+	ImageKey VARCHAR(255),
+	Picture LONGBLOB,
+	PRIMARY KEY(ID)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS tbl_persons(
+	ID INT AUTO_INCREMENT,
+	FirstName VARCHAR(255),
+	LastName VARCHAR(255),
+	CompanyName VARCHAR(255),
+	Designation VARCHAR(255),
+	Gender VARCHAR(20),
+	DateRegistered DATE,
+	PersonSign LONGTEXT,
+	isPicked INT,
+	ImageKey VARCHAR(255),
+	NickName VARCHAR(255),
+	PRIMARY KEY(ID)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;

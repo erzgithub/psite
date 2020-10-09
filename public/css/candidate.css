@@ -1,0 +1,133 @@
+ol, ul{ list-style-type: none;}
+#container{
+	margin: 15px;
+	clear: left;
+	margin-top: 50px;
+}
+#container:after{ 
+	display: block;
+	content: " ";
+	height: 0;
+	clear:both;
+}
+
+/*ul#list{width: auto; margin-bottom: 5px; clear:both;}
+#list li{line-height: 1.5em; float:left; display: inline; width: 200px; height: auto;}*/
+#list2{width: auto; margin-bottom: 5px;}
+ul#list2 li{line-height: 1.5em; float: left; display:inline; width: 160px; height:auto; margin-top: 10px;}
+
+.btnvote{ 
+	font: 15px bold Tahoma, sans-serif;
+}
+
+#curkey{
+	display: none;
+}
+
+.voted{ 
+	color: red;
+}
+
+.new{
+	color: blue;
+}
+
+#r1{
+	float: left;
+	margin-right: 10px;
+}
+
+#r1 a{
+	font: normal 17px/150% Verdana, Helvetica, sans-serif; 
+	color: green;
+}
+
+.cancel{
+	color: red;
+}
+
+.cname{
+	font: normal 12px/110% Tahoma, Verdana, sans-serif;
+}
+
+.tcname{ 
+	font: normal 13px/110% Tahoma, Verdana, sans-serif;
+}
+
+#wtag{font: normal 14px Tahoma, Verdana, sans-serif; padding: 10px 0 0 15px; width: 80%; float: left;}
+ #rcontainer:after{
+	display:block;
+	content: " ";
+	height: 0;
+	clear:both;
+}
+footer{ 
+	text-align: center;
+}
+
+.school, .school p{ 
+	font: normal 11px Tahoma, Verdana, sans-serif;
+	color: green;
+}
+
+.piccontainer{
+	height: 70px;
+}
+
+.picture{ 
+	margin-left: 5%;
+	border: 1px solid #000;
+	border-radius: 150px solid #000;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	
+	border-top-left-radius:     150px;
+	border-top-right-radius:    150px;
+	border-bottom-right-radius: 150px;
+	border-bottom-left-radius:  150px;
+	
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow:0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	
+	-webkit-transform:scale(0.8); /*Webkit: Scale down image to 0.8x original size*/
+	-moz-transform:scale(0.8); /*Mozilla scale version*/
+	-o-transform:scale(0.8); /*Opera scale version*/
+	-webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+	-moz-transition-duration: 0.5s; /*Mozilla duration version*/
+	-o-transition-duration: 0.5s; /*Opera duration version*/
+}
+
+.picture:hover{ 
+	-webkit-transform:scale(2.1); /*Webkit: Scale up image to 1.2x original size*/
+	-moz-transform:scale(2.1); /*Mozilla scale version*/
+	-o-transform:scale(2.1); /*Opera scale version*/
+	box-shadow:0px 0px 30px gray; /*CSS3 shadow: 30px blurred shadow all around image*/
+	-webkit-box-shadow:0px 0px 30px gray; /*Safari shadow version*/
+	-moz-box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/
+}
+
+.dcontainer{
+	 height: 140px;
+	 width: 130px;
+	 border: 1px solid yellow;
+	 padding: 0 0 0 5px;
+}
+
+.vcontrol a{ 
+	text-decoration: none;
+}
+
+.vcontrol a:hover{ 
+	text-decoration: underline;
+	color: green;
+}
+
+.tvotes{ 
+	font: normal 14px Tahoma, Verdana, sans-serif;
+	
+}
+
+.tvotecount{ 
+	color: blue;
+}

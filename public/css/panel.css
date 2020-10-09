@@ -1,0 +1,27 @@
+#container{
+	width: 100%;
+	height: auto;
+	background: #ddd;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+#container:after{ 
+	display: block;
+	content: " ";
+	height: 0;
+	clear:both;
+}
+
+#d1, #d2, #d3{ 
+	float: left;
+	width: 160px;
+	height: 160px;
+	position: relative;
+	margin-left: 2px;
+	padding: 5px;
+}
+
+#d4{ 
+	clear:both;
+}

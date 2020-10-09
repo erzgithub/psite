@@ -1,0 +1,56 @@
+#tblrecount{
+		width:auto;
+		margin:auto;
+		border-collapse: collapse;
+		
+		}		
+		#tblrecount th {
+			background: #333;
+			color: white;
+			font-weight: bold;
+			font-weight: bold; 
+			font-family:Tahoma;
+			font-size:13px;
+			padding: 5px;
+			
+			
+			}
+		#tblrecount td, #tblrecount hd
+		{
+			text-align:center;
+			border:1px solid #ccc;
+			padding:15px;
+			font:13px/1 verdana;	
+				}		
+		#tblrecount td a
+		{/*text-decoration:none;*/color:red;}	
+		#tblrecount tr{background:rgba(0,0,0,0);}
+		#tblrecount tr:hover {background: #87ceeb;}
+		
+#host{ 
+	width: 50%;
+	margin: auto;
+	padding: 10px;
+	border: 1px solid #000;
+	margin-top: 5px;
+}
+
+#host:after{
+	display: block;
+	content: " ";
+	height: 0;
+	clear:both;
+}
+
+
+
+#h1{
+	float: left;
+	width: 250px;
+}
+
+#h2{ 
+	width: 50%;
+	float: left;
+	margin-left: 2px;
+}

@@ -1,0 +1,135 @@
+body{
+	background: url(../img/background.jpg) no-repeat center center fixed;
+}
+#loading{position:fixed; display:block; z-index: 99; width: 100%; height:100%; top: 0; left: 0;}
+#li{position: absolute; top: 50%; left: 50%; z-index: 100;}
+ul li{list-style: none;}
+#cLogo, #navi{width:938px; margin-left: auto; margin-right: auto;}
+#footer{padding: 15px; clear:both; border: 1px solid #ccc; margin-top: 5px; text-align: center; font-family: verdana; font-size: 13px; color: #000;}
+.regform{/**/background: #f0f0f0; color: #333; /*clear: both;*/ }
+.regform{font-size: 15px; font-weight: bold;}
+#maincontainer{width: 1000px; position:relative; margin:auto;}
+.warning{display:none;}
+#members{
+		width:auto;
+		margin:auto;
+		border-collapse: collapse;
+		
+		}		
+		#members th {
+			background: #333;
+			color: white;
+			font-weight: bold;
+			font-weight: bold; 
+			font-family:Tahoma;
+			font-size:13px;
+			padding: 5px;
+			
+			
+			}
+		#members td, #members hd
+		{
+			text-align:center;
+			border:1px solid #ccc;
+			padding:15px;
+			font:13px/1 verdana;	
+				}		
+		#members td a
+		{/*text-decoration:none;*/color:red;}	
+		#members tr{background:rgba(0,0,0,0);}
+		#members tr:hover {background: #87ceeb;}
+#rafflecontainer{
+	width: 950px;
+	background: white;
+	margin-left: auto; margin-right: auto;
+	position: relative;
+}
+#raffletitle{width:350px; margin-left: auto; margin-right: auto;  text-align:center;}
+#forati{width: 70px; height: 70px; margin-left: auto; margin-right: auto; float:left; }
+#rafflecontrol{position: relative; width: 500px; margin-left: auto; margin-right: auto; clear: both; padding: 20px; text-align:center;}
+.rc{font: normal 20px Verdana, Helvetica, sans-serif; color: blue; padding: 0 0 0 10px;}
+#rcounter{font: normal 30px Verdana, Helvetica, sans-serif; color: red; padding: 0 0 0 10px;}
+#profilecontainer{width: 700px; margin-left: auto; margin-right: auto; background: white;}
+.profiletitle{color: blue;}
+#rnames{font: normal 30px Verdana, Helvetica, sans-serif; color: green;}
+#state, #sc, #imagekey{display:none;}
+#office{color: gray;}
+#cf{font: normal 20px Verdana, Helvetica, sans-serif; color: blue;}
+#wintitle{font: bold 30px Verdana, Helvetica, sans-serif; color:yellow;}
+.img-zoom, .zm {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(4);
+    -moz-transform: scale(4);
+    -o-transform: scale(4);
+    transform: scale(4);
+}
+
+#currkey{
+	display: none;
+}
+
+.picture{
+	margin: 5px;
+	border: 1px solid #000;
+}
+/**/
+#profilecontainer:after{ 
+	 display: block;
+	content: " ";
+	height: 5px;
+	clear:both;
+}
+
+#profilecontainer{ 
+	margin-top: 5px;
+}
+
+#camcontainer{ 
+	width:400px;
+	float:left;
+	margin-left: 4px;
+	padding: 5px;
+}
+
+#camcontainer #camtitle{ 
+	text-align:center;
+}
+
+#upcontainer{
+	margin-left:5px;
+	width: 250px;
+	float: left;
+}
+
+#part{ 
+	display: none;
+}
+
+.foredit{
+	 
+	 text-decoration: none; font: menu;
+    display: inline-block; padding: 2px 8px;
+    background: ButtonFace; color: ButtonText;
+    border-style: solid; border-width: 2px;
+    border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+	margin-bottom: 5px;
+}
+
+.voteclass{ 
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+
+/*
+input{
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+}*/
